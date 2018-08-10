@@ -1,0 +1,381 @@
+/* stylelint-disable selector-list-comma-newline-after */
+.fixed-top{
+  margin-left: -5px;
+}
+#site-title{
+  /*font-family: "Comic Sans MS", cursive, sans-serif;*/
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 25px;
+  margin-top: -5px !important;
+
+
+}
+#input-search {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.3s ease-in-out;
+    border-bottom: none !important;
+    border-right:none !important;
+    border-left:none !important;
+    border-top:none !important;
+    background-color: rgb(240, 240, 240);
+   
+
+}
+
+/* When the input field gets focus, change its width to 100% */
+#input-search:focus {
+    width: 100%;
+    outline:none;
+    background-color: White;
+}
+nav{
+  -webkit-box-shadow: 3px 4px 3px -2px #ccc;
+}
+
+@media(min-width: 768px) {
+
+  #first-nav{
+  margin-left: 20%;
+}
+#last-nav{
+  margin-right:20%;
+}
+.smallnav{
+  display:none !important;
+}
+
+}
+@media(max-width: 768px) {
+
+.desknav{
+  display:none!important;
+}
+#right-col{
+  display:none;
+}
+#left-col{
+  display:none;
+}
+#upload_nav{
+  margin-right: 2%;
+}
+
+}
+
+.text-block {
+    position: absolute;
+    bottom: 50%;
+    right: 20px;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bottom-text-block {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 5px;
+    color:white; /* Some padding */
+}
+#body-container{
+  
+   margin-top: -15px;
+}
+body{
+  background-color: rgb(240, 240, 240) !important;
+}
+#slidecard{
+  
+  margin-left:-1.5px;
+
+ {box-sizing: border-box;}
+
+.mySlides {display: none;}
+
+
+/* Slideshow container */
+
+/* Caption text */
+}
+
+
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+
+
+
+/* Links inside the dropdown */
+/*
+.fixed-top{
+  background-color: #3F729B;
+}
+.fixed-bottom{
+  background-color: #3F729B;
+}*/
+
+
+
+.bottom-nav{
+  text-decoration: none !important;
+  color:white;
+  cursor: pointer;
+}
+
+
+.bottom-nav:hover{
+  background-color:rgb(180, 180, 180) !important;
+  color: white;
+}
+
+
+a{
+  text-decoration: none !important;
+
+}
+table,tr,td{
+  border: none !important;
+}
+
+.image-card{
+
+  width:100%;
+height:auto;
+
+padding: 3px 3px 3px 3px !important;
+
+}
+.card{
+  
+  border:0.5px solid rgb(240, 240, 240);
+  border-radius: 0px;
+}
+
+.bar{
+  width:100%;
+    border-radius:2px;
+    -webkit-box-shadow: 3px 4px 3px -2px #ccc;
+    padding:7px;
+    border:0px;
+    outline: none;
+    border-top: 0.5px solid rgb(240, 240, 240);
+  border-left: 0.5px solid rgb(240, 240, 240);
+  border-right: 0.5px solid rgb(240, 240, 240);
+  border-bottom: 0.5px solid rgb(240, 240, 240);
+}
+.bar:hover{
+    -webkit-box-shadow: 4px 6px 7px -3px #ccc;
+    outline: none;
+}
+.form-control:focus {
+  border:  0.5px solid rgb(240, 240, 240) !important;
+  -webkit-box-shadow:none;
+  -webkit-box-shadow: 4px 6px 7px -3px #ccc;
+    outline: none;
+}
+.form-label{
+  font-size: 12px;
+}
+/*.form-control{
+  border-bottom:1px solid rgb(180, 180, 180);
+    border-right:none;
+    border-left:none;
+    border-top:none;
+    width:100%;
+    border-radius: 0px;
+  
+}*/
+/*.form-control:focus{
+   outline:0px !important;
+    -webkit-appearance:none;
+}*/
+.col-form-label{
+  margin-top: -20px;
+  font-size: 12px;
+}
+.footer-item{
+  margin-left: 10px;
+}
+
+#first-nav{
+  margin-left: 10px;
+}
+#last-nav{
+  margin-right:10px;
+}
+@media(min-width: 576px) {
+
+  #first-nav{
+  margin-left: 10%;
+}
+#last-nav{
+  margin-right:10%;
+}
+}
+
+
+@media(max-width: 576px) {
+
+#site-title{
+  font-size: 18px;
+}
+
+}
+body {
+  padding-top: 1.5em;
+}
+
+.fixed-top{
+  margin-top:0px;
+  
+}
+.nav-scroller{
+  margin-top:25px;
+}
+
+
+.col-md-6{
+  margin-bottom:20px;
+}
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 1.5rem;
+}
+@media only screen and(min-width: 768px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+/*@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}*/
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+/*
+ * Blog name and description
+ */
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+/* stylelint-disable selector-list-comma-newline-after */
